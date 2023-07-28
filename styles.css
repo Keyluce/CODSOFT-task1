@@ -39,7 +39,6 @@ li{
 }
 
 
-
 .img-placeholder{
     display: flex; 
     width: 400px;
@@ -98,6 +97,22 @@ button{
     text-align: center;
 
 }
+
+.quote-container{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    padding: 20px 350px;
+    text-align: justify;
+    color: #1f2937;
+    display:flex;
+    flex-direction: column;
+}
+
+.author{
+    align-self: flex-end;
+}
+
+
 
 
 
