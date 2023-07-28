@@ -8,7 +8,9 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;    
-    padding: 10px 290px;
+    padding: 10px 260px;
+    flex-wrap: wrap;
+    gap: 80px;
 }
 
 .header-logo-text{
@@ -36,18 +38,9 @@ li{
 }
 
 
-.hero-container{
-    display: flex;
-    justify-content: center;
-    background-color: #1f2937;
-    padding: 50px 90px;
-    align-items: center;
-    gap: 50px;
-     
-}
 
 .img-placeholder{
-    display: flex;
+    display: flex; 
     width: 400px;
     height: 200px;
     justify-content: center;
