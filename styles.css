@@ -140,10 +140,13 @@ button{
     height: 30px;
     border: 2px solid white;
     color: white;
-    
+}
 
-    
-    
+.footer{
+    text-align: center;
+    background-color: #1f2937;
+    padding: 40px;
+    color:#E5E7EB;
 }
 
 
