@@ -69,6 +69,8 @@ button{
     color: #E5E7EB;
     font-weight: bold;
     margin-top: 20px;
+    border: 2px solid white;
+
 }
 
 .random-info h2
@@ -112,6 +114,37 @@ button{
     align-self: flex-end;
 }
 
+.sign-up-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.sign-up-sub-container{
+    background-color: #3882f6;
+    padding: 25px;
+    color: #E5E7EB;
+    width: 67%;
+    display: flex;
+    justify-content: center;
+    gap: 210px;
+}
+.sign-up-sub-container h3{
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.sign-up-sub-container button{
+    align-self: center;
+    width: 100px;
+    height: 30px;
+    border: 2px solid white;
+    color: white;
+    
+
+    
+    
+}
 
 
 
