@@ -1,46 +1,46 @@
-
-body{
+body {
     margin: 0px;
     font-family: 'Roboto', sans-serif;
 }
-.header{
+
+.header {
     background-color: #1f2937;
     display: flex;
-    justify-content: space-between;
-    align-items: center;    
-    padding: 10px 260px;
-    flex-wrap: wrap;
-    gap: 80px;
-    padding-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 410px;
+    padding-top: 12px;
+
+
 }
 
-.header-logo-text{
+.header-logo-text {
     font-size: 24px;
     color: #f9faf8;
     margin: 0px;
 }
 
-a{
-    
+a {
+
     color: #E5E7EB;
-    text-decoration-line: none; 
+    text-decoration-line: none;
 }
 
-ul{
+ul {
     margin: 0px;
     padding: 0px;
     display: flex;
     gap: 15px;
 }
 
-li{
+li {
     font-size: 18px;
     list-style-type: none;
 }
 
 
-.img-placeholder{
-    display: flex; 
+.img-placeholder {
+    display: flex;
     width: 400px;
     height: 200px;
     justify-content: center;
@@ -48,20 +48,29 @@ li{
     background-color: rgb(136, 136, 136);
 }
 
-.hero-one{
+.hero-container {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    padding: 80px;
+}
+
+.hero-one {
     flex-basis: 500px;
-    flex-shrink: 2;
     font-size: 18px;
     color: #E5E7EB;
 }
-.hero-one h1{
+
+.hero-one h1 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
     margin: 3px;
 }
 
-button{
+button {
     background-color: #3882f6;
     border-radius: 5px;
     width: 90px;
@@ -73,54 +82,54 @@ button{
 
 }
 
-.random-info h2
-{
+.random-info h2 {
     text-align: center;
     margin-top: 25px;
     margin-bottom: 42px;
 }
 
-.box{
+.box {
     border: 2px solid #3882f6;
     width: 150px;
     height: 150px;
     border-radius: 10px;
 }
 
-.random-info-flex{
+.random-info-flex {
     display: flex;
     justify-content: center;
     gap: 50px;
 }
 
-.item{
+.item {
     width: 150px;
     height: 300px;
     text-align: center;
 
 }
 
-.quote-container{
+.quote-container {
     background-color: #E5E7EB;
     font-size: 36px;
     padding: 20px 350px;
     text-align: justify;
     color: #1f2937;
-    display:flex;
+    display: flex;
     flex-direction: column;
 }
 
-.author{
+.author {
     align-self: flex-end;
 }
 
-.sign-up-container{
+.sign-up-container {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 50px;
 }
-.sign-up-sub-container{
+
+.sign-up-sub-container {
     background-color: #3882f6;
     padding: 25px;
     color: #E5E7EB;
@@ -129,12 +138,13 @@ button{
     justify-content: center;
     gap: 210px;
 }
-.sign-up-sub-container h3{
+
+.sign-up-sub-container h3 {
     font-weight: bold;
     font-size: 21px;
 }
 
-.sign-up-sub-container button{
+.sign-up-sub-container button {
     align-self: center;
     width: 100px;
     height: 30px;
@@ -142,16 +152,9 @@ button{
     color: white;
 }
 
-.footer{
+.footer {
     text-align: center;
     background-color: #1f2937;
     padding: 40px;
-    color:#E5E7EB;
+    color: #E5E7EB;
 }
-
-
-
-
-
-
-
