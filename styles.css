@@ -1,17 +1,16 @@
 body {
     margin: 0px;
     font-family: 'Roboto', sans-serif;
+    background-color: rgb(255, 247, 212);
 }
 
 .header {
-    background-color: #1f2937;
+    background-color: rgb(76, 61, 61);
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 410px;
-    padding-top: 12px;
-
-
+    padding-top: 5px;
 }
 
 .header-logo-text {
@@ -20,9 +19,18 @@ body {
     margin: 0px;
 }
 
+.banana-logo-header{
+    width: 100px;
+    height: auto;
+}
+.banana-mascot{
+    width: 200px;
+    height: auto;
+    margin-bottom: 50px;
+}
 a {
 
-    color: #E5E7EB;
+    color: yellow;
     text-decoration-line: none;
 }
 
@@ -39,34 +47,28 @@ li {
 }
 
 
-.img-placeholder {
-    display: flex;
-    width: 400px;
-    height: 200px;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(136, 136, 136);
-}
 
 .hero-container {
     display: flex;
-    background-color: #1f2937;
+    background-color: rgb(255, 217, 90);
     justify-content: center;
     align-items: center;
-    gap: 55px;
-    padding: 80px;
+    gap: 95px;
+    padding: 50px;
+
 }
 
 .hero-one {
     flex-basis: 500px;
-    font-size: 18px;
-    color: #E5E7EB;
+    font-size: 20px;
+    color: rgb(76, 61, 61);
+    font-weight: bold;
 }
 
 .hero-one h1 {
     font-size: 48px;
     font-weight: 900;
-    color: #F9FAF8;
+    color: rgb(76, 61, 61);
     margin: 3px;
 }
 
@@ -86,13 +88,20 @@ button {
     text-align: center;
     margin-top: 25px;
     margin-bottom: 42px;
+    color: rgb(76, 61, 61);
+    font-size: 30px;
 }
 
 .box {
-    border: 2px solid #3882f6;
+    border: 3px solid yellow;
     width: 150px;
     height: 150px;
-    border-radius: 10px;
+    border-radius: 30px;
+}
+.box img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
 }
 
 .random-info-flex {
@@ -104,7 +113,7 @@ button {
 .item {
     width: 150px;
     height: 300px;
-    text-align: center;
+    text-align: justify;
 
 }
 
