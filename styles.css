@@ -134,14 +134,14 @@ button {
     align-self: flex-end;
 }
 
-.sign-up-container {
+.buy-container {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 50px;
 }
 
-.sign-up-sub-container {
+.buy-sub-container {
     background-color: rgb(255, 217, 90);;
     padding: 25px;
     color: #3F1D38;
@@ -151,12 +151,12 @@ button {
     gap: 210px;
 }
 
-.sign-up-sub-container h3 {
+.buy-sub-container h3 {
     font-weight: bold;
     font-size: 21px;
 }
 
-.sign-up-sub-container button {
+.buy-sub-container button {
     align-self: center;
     width: 100px;
     height: 30px;
