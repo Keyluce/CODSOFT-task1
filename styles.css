@@ -11,6 +11,7 @@ body {
     align-items: center;
     gap: 410px;
     padding-top: 5px;
+    padding: 10px;
 }
 
 .header-logo-text {
@@ -73,9 +74,9 @@ li {
 }
 
 button {
-    background-color: #3882f6;
+    background-color: rgb(76, 61, 61);
     border-radius: 5px;
-    width: 90px;
+    width: fit-content;
     height: 30px;
     color: #E5E7EB;
     font-weight: bold;
@@ -122,9 +123,11 @@ button {
     font-size: 36px;
     padding: 20px 350px;
     text-align: justify;
-    color: #1f2937;
+    font-weight: bold;
+    color: #3F1D38;
     display: flex;
     flex-direction: column;
+    background-color: #FFFD8C;
 }
 
 .author {
@@ -139,9 +142,9 @@ button {
 }
 
 .sign-up-sub-container {
-    background-color: #3882f6;
+    background-color: rgb(255, 217, 90);;
     padding: 25px;
-    color: #E5E7EB;
+    color: #3F1D38;
     width: 67%;
     display: flex;
     justify-content: center;
